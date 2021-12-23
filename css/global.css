@@ -1,0 +1,33 @@
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.text-left{
+    text-align: left;
+}
+.text-center{
+    text-align: center;
+}
+.text-upcase{
+    text-transform: uppercase;
+}
+.pd-15{
+    padding: 15px;
+}
+.pd-10{
+    padding: 10px;
+}
+.cler-both {
+    clear: both;
+}
+.text-bold {
+    font-weight: bold;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.d-flex{
+    display: flex;
+}
