@@ -1,37 +1,276 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
 
-You can use the [editor on GitHub](https://github.com/longnhat197/psd-html/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="font/css/all.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Unitop newspaper</title>
+</head>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<body>
+    <div id="main">
+        <div id="header">
+            <div class="container justify-content-between">
+                <a id="logo" href="">
+                    <img src="img/logo.png" alt="logo">
+                </a>
+                <form action="index.html" id="search">
+                    <input type="text" name="txt_text" placeholder="Bạn muốn tìm gì?">
+                    <button><i class="fas fa-search"></i></button>
+                </form>
 
-### Markdown
+            </div>
+            <div class="container">
+                <nav>
+                    <ul id="main-menu" class="d-flex">
+                        <li><a href="">Trang chủ</a></li>
+                        <li class="active"><a href="">Thời trang</a></li>
+                        <li><a href="">Đời sống</a></li>
+                        <li><a href="">Xã hội</a></li>
+                        <li><a href="">Bóng đá</a></li>
+                        <li><a href="">Video</a></li>
+                        <li><a href="">Sự kiện</a></li>
+                        <li><a href="">Liên hệ</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div id="wp-hot-new" class="container">
+            <div class="box hot-new">
+                <div class="box-head">
+                    <h3>Nổi bật</h3>
+                </div>
+                <div class="box-body">
+                    <ul class="list-hot-new d-flex justify-content-between ">
+                        <li>
+                            <a href="" class="post-thumb">
+                                <img src="img/post-1.png" alt="">
+                            </a>
+                            <a href="" class="post-title">
+                                Xu hướng thời trang hè 2020: Những mảnh ghép đáng được chú ý </a>
+                        </li>
+                        <li>
+                            <a href="" class="post-thumb">
+                                <img src="img/post-2.png" alt="">
+                            </a>
+                            <a href="" class="post-title">
+                                Buổi trình diễn thời trang mùa xuân tại Đại học Michigan đã bắt đầu </a>
+                        </li>
+                        <li>
+                            <a href="" class="post-thumb">
+                                <img src="img/post-3.png" alt="">
+                            </a>
+                            <a href="" class="post-title">
+                                Bật mí cách mặc đẹp cho người mập trở nên thon gọn </a>
+                        </li>
+                    </ul>
+                </div>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+            </div>
+        </div>
 
-```markdown
-Syntax highlighted code block
+        <div id="wp-content" class="container">
+            <div id="content">
+                <div class="box new-post">
+                    <div class="box-head">
+                        <h3>Bài viết mới</h3>
+                    </div>
+                    <div class="box-body">
+                        <ul class="list-post">
+                            <li>
+                                <a href="" class="post-thumb">
+                                    <img src="img/thumb-1.png" alt="">
+                                </a>
+                                <div class="info">
+                                    <a href="" class="post-title">Bạn có phải là một người phụ nữ có phong cách?</a>
+                                    <div class="post-pulished">
+                                        <a href="" class="post-author">phancuong</a>
+                                        <span class="post-date">20/11/2020</span>
+                                    </div>
+                                    <p class="post-excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel
+                                        facilisis. </p>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="" class="post-thumb">
+                                    <img src="img/thumb-2.png" alt="">
+                                </a>
+                                <div class="info">
+                                    <a href="" class="post-title">Cách để bạn luôn tỏa sáng trước đám đông</a>
+                                    <div class="post-pulished">
+                                        <a href="" class="post-author">phancuong</a>
+                                        <span class="post-date">20/11/2020</span>
+                                    </div>
+                                    <p class="post-excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel
+                                        facilisis. </p>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="" class="post-thumb">
+                                    <img src="img/thumb-3.png" alt="">
+                                </a>
+                                <div class="info">
+                                    <a href="" class="post-title">Những kiểu tóc mới là xu hướng của giới trẻ 2020</a>
+                                    <div class="post-pulished">
+                                        <a href="" class="post-author">phancuong</a>
+                                        <span class="post-date">20/11/2020</span>
+                                    </div>
+                                    <p class="post-excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel
+                                        facilisis. </p>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="" class="post-thumb">
+                                    <img src="img/thumb-4.png" alt="">
+                                </a>
+                                <div class="info">
+                                    <a href="" class="post-title">15 địa điểm du lịch nổi tiếng bạn cần đến tại Việt
+                                        Nam</a>
+                                    <div class="post-pulished">
+                                        <a href="" class="post-author">phancuong</a>
+                                        <span class="post-date">20/11/2020</span>
+                                    </div>
+                                    <p class="post-excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel
+                                        facilisis. </p>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="" class="post-thumb">
+                                    <img src="img/thumb-5.png" alt="">
+                                </a>
+                                <div class="info">
+                                    <a href="" class="post-title">Hãy xách balo lên và đi và trải nghiệm những khoảnh
+                                        khắc thú vị</a>
+                                    <div class="post-pulished">
+                                        <a href="" class="post-author">phancuong</a>
+                                        <span class="post-date">20/11/2020</span>
+                                    </div>
+                                    <p class="post-excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel
+                                        facilisis. </p>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="" class="post-thumb">
+                                    <img src="img/thumb-6.png" alt="">
+                                </a>
+                                <div class="info">
+                                    <a href="" class="post-title">Top 10 nữ hoàng DJ nỗi tiếng nhất Las Vegas bạn cần
+                                        biết</a>
+                                    <div class="post-pulished">
+                                        <a href="" class="post-author">phancuong</a>
+                                        <span class="post-date">20/11/2020</span>
+                                    </div>
+                                    <p class="post-excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel
+                                        facilisis. </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="sidebar">
+                <a href="" class="ads">
+                    <img src="img/baner.png" alt="">
+                </a>
+                <div class="box top-topic">
+                    <div class="box-head">
+                        <h3>Chủ đề quan tâm</h3>
+                    </div>
+                    <div class="box-body">
+                        <ul class="list-topic">
+                            <li>
+                                <a href="">Thời trang <span class="num-post">20</span></a>
+                            </li>
+                            <li>
+                                <a href="">Đời sống <span class="num-post">30</span></a>
+                            </li>
+                            <li>
+                                <a href="">Xã hội <span class="num-post">26</span></a>
+                            </li>
+                            <li>
+                                <a href="">Bóng Đá <span class="num-post">35</span></a>
+                            </li>
+                            <li>
+                                <a href="">Điện ảnh <span class="num-post">29</span></a>
+                            </li>
+                            <li>
+                                <a href="">Sự kiện<span class="num-post">15</span></a>
+                            </li>
+                            <li>
+                                <a href="">Thời trang <span class="num-post">34</span></a>
+                            </li>
+                            <li>
+                                <a href="">Thời trang <span class="num-post">45</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <div class="container">
+                <div class="box logo-footer">
+                    <div class="box-head">
+                        <h3>Logo</h3>
+                    </div>
+                    <div class="box-body">
+                        <a href="">
+                            <img src="img/logo.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="box about-us">
+                    <div class="box-head">
+                        <h3>Về chúng tôi</h3>
+                    </div>
+                    <div class="box-body">
+                        <p>Unitop.vn là hệ thống đào tạo lập trình web online theo lộ trình từng bước. Hệ thống phát triển từ tháng 6/2017 đến nay đã có gần 2.000 người theo học và đạt kết quả tốt.
+                        </p>
+                        <a href="http://unitop.vn">http://unitop.vn</a>
+                    </div>
+                </div>
+                <div class="box follow-us">
+                    <div class="box-head">
+                        <h3>Theo dõi</h3>
+                    </div>
+                    <div class="box-body">
+                        <ul class="list-social d-flex">
+                            <li>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fab fa-youtube"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fab fa-pinterest-p"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="wp-copy-right">
+            <div class="container justify-content-between">
+                <p id="copy-right">© Unitop.vn - Html Css 21 Ngày</p>
 
-# Header 1
-## Header 2
-### Header 3
+                <ul id="foot-menu" class="d-flex">
+                    <li><a href="">Bảo mật</a></li>
+                    <li><a href="">Quảng cáo</a></li>
+                    <li><a href="">Liên hệ</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+</body>
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/longnhat197/psd-html/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</html>
